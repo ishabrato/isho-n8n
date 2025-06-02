@@ -12,7 +12,7 @@ RUN apk update && apk add --no-cache \
     wget
 
 # Install yt-dlp
-RUN pip3 install --upgrade yt-dlp
+RUN pip install --upgrade yt-dlp
 
 # Switch back to n8n user
 USER node
